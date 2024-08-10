@@ -1,0 +1,142 @@
+@font-face {
+  font-family: shabnam;
+  src: url(../fonts/Shabnam.woff) format("woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #9ccc65;
+}
+
+.form-login {
+  position: relative;
+  width: 20rem;
+  padding: 40px 20px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-size: 13px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+  padding: 12px;
+}
+
+.button-login {
+  width: 100%;
+  margin: 8px 0px;
+  background-color: #66bb6a;
+  padding: 12px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  outline: none;
+  border: 0;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #32cd32;
+}
+
+label.label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.err {
+  display: none;
+  position: absolute;
+  align-items: center;
+  direction: rtl;
+  right: 0;
+  top: 5rem;
+  width: 18rem;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transform: translateX(-20rem);
+  -webkit-transform: translateX(-20rem);
+  -moz-transform: translateX(-20rem);
+  -ms-transform: translateX(-20rem);
+  -o-transform: translateX(-20rem);
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  font-family: shabnam;
+}
+
+.icon-close {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  width: 80px;
+  background-color: red;
+  color: #fff;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.massage {
+  padding-right: 6px;
+  font-size: 16px;
+}
+
+.icon-check {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  width: 80px;
+  background-color: #32cd32;
+  color: #fff;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
